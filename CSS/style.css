@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #1d1d1d;
+    box-sizing: border-box;
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+div.card {
+    background-color: white;
+    width: 350px;
+    height: 620px;
+    margin: 30px auto;
+    border-radius: 20px;
+}
+
+div.card div.img_container img {
+    width: 100%;
+}
+
+div.card div.content {
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    /* background-color: red; */
+}
+
+div.card div.content h1 {
+    font-size: 30px;
+    font-weight: 900;
+    color: #1F2F56;
+}
+
+div.card div.content p {
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    line-height: 1.4;
+}
+
+div.card div.content div.sub {
+    background-color: #F4F4FE;
+    padding: 18px 18px;
+    margin-top: 20px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+div.card div.content div.sub div.left {
+    display: flex;
+    align-items: center;
+    /* background-color: red; */
+}
+
+div.card div.content div.sub div.left div.sub_text {
+    /* background-color: red; */
+    width: 120px;
+    text-align: left;
+    padding-left: 0;
+}
+
+div.card div.content div.sub div.left div.sub_text p.first{
+    font-weight: 900;
+    color: #1F2F56;
+}
+
+div.card div.content div.sub div.left div.sub_text p.second{
+    color: #8A8A8A;
+    font-weight: bold;
+}
+
+div.card div.content div.sub div.right{
+    font-weight: bold;
+}
+
+div.content a.btn-1 {
+    font-weight: 700;
+    display: block;
+    text-decoration: none;
+    color: white;
+    background-color: hsl(245, 75%, 52%);
+    padding: 20px 0;
+    border-radius: 12px;
+    margin: 25px 0;
+    box-shadow: 0px 12px 11px 10px rgba(56, 41, 224, 0.2); /* Adjust values for desired shadow */
+}
+
+div.content a.btn-1:hover {
+    background-color: #7280A7;
+}
+
+div.content a.btn-2 {
+    display: block;
+    text-decoration: none;
+    background-color: transparent;
+    font-weight: 900;
+    padding: 20px 0;
+    margin:  0;
+    color: #7280A7;
+}
