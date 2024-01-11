@@ -35,6 +35,7 @@ div.card div.content {
 }
 
 div.card div.content h1 {
+    margin: 20px auto;
     font-size: 30px;
     font-weight: 900;
     color: #1F2F56;
