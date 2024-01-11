@@ -22,6 +22,7 @@ div.card {
 
 div.card div.img_container img {
     width: 100%;
+    border-radius: 18px;
 }
 
 div.card div.content {
