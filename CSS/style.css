@@ -110,3 +110,12 @@ div.content a.btn-2 {
     margin:  0;
     color: #7280A7;
 }
+
+div.icon_container img{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}
+
+
+
